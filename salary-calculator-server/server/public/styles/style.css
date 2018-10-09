@@ -1,0 +1,105 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header{
+    background-color: grey;
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+}
+
+main{
+    margin-left:50px;
+}
+
+input{
+    line-height: 24px;
+    font-size: 18px;
+    width: 15%;
+    margin-right: 10px;
+}
+
+button{
+    float: right;
+    margin-right: 17%;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h2{
+    margin-left: 17%;
+}
+
+.inputFields{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    
+}   
+
+#textInputForm{
+    display:flex;
+    justify-content: center;
+}
+
+#employeeTableFull{
+    width: 100%;
+    
+}
+#finalSalaryOutput{
+    margin-right: 17%;
+    float: right;
+}
+
+.container{
+    background-color: gray;
+    margin-left: 15%;
+    margin-top: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+}
+.centeredText{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+th, td{
+    text-align: left;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(167, 165, 165);
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(202, 202, 202);
+}
+
+tbody{
+    background-color: rgb(144, 143, 143);
+}
+.blankRow{
+    height: 20px; !important;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.red{
+    background-color: red;
+}
+
+.normal{
+    background-color: black;
+}
